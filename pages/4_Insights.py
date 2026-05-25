@@ -157,14 +157,14 @@ st.divider()
 m1, m2, m3, m4 = st.columns(4)
 
 with m1:
-    st.metric("Total Trips 20k")
+    st.metric("Total Trips" ,20k")
 with m2:
     st.metric("Total Routes", filtered_df["RouteID"].nunique())
 with m3:
     st.metric("Average Delay 7 mins")
 with m4:
     ontime = ((filtered_df["Status"] == "On-Time").sum() / len(filtered_df)) * 100
-    st.metric("On-Time Performance 89%")
+    st.metric("On-Time Performance", 89%")
 
 st.divider()
 
