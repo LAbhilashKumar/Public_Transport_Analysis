@@ -171,7 +171,7 @@ interactive analytics dashboards that help:
 
 c1, c2, c3, c4 = st.columns(4)
 
-c1.metric("Routes", "120+")
+c1.metric("Routes", "20+")
 c2.metric("Trips", "20K+")
 c3.metric("Avg Delay", "7 mins")
 c4.metric("OTP", "89%")
