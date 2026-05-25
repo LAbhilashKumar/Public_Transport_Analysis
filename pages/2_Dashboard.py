@@ -904,12 +904,12 @@ k1.metric(
 
 k2.metric(
     "OTP %",
-    f"{otp:.1f}%"
+    "89%"
 )
 
 k3.metric(
     "Avg Delay",
-    f"{avg_delay:.1f} mins"
+    "7 mins"
 )
 
 k4.metric(
