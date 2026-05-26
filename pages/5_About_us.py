@@ -276,19 +276,5 @@ decisions that can improve operational performance
 and passenger experience.
 """)
 
-st.divider()
 
-# ======================================================
-# PROJECT IMPACT
-# ======================================================
-
-st.subheader("📊 Project Impact")
-
-st.markdown("""
-This project demonstrates how Data Analytics and AI
-can be applied to public transportation systems
-to improve travel awareness, operational understanding,
-and smarter decision-making for both commuters and
-transport organizations.
-""")
 st.divider()
