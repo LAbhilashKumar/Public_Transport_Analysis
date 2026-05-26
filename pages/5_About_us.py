@@ -153,27 +153,128 @@ st.write("")
 # st.header("Summary")
 st.header("📌 About the Project")
 
+# st.markdown("""
+# The **Public Transport Delay Analysis System**
+# is designed to analyze, monitor, and visualize
+# delays in buses and trains using operational
+# transport datasets.
+
+# The platform transforms transport data into
+# interactive analytics dashboards that help:
+
+# - Analyze delay trends
+# - Detect congestion patterns
+# - Improve route efficiency
+# - Support smarter travel planning
+# - Generate AI-powered operational insights
+# """)
+
+# c1, c2, c3, c4 = st.columns(4)
+
+# c1.metric("Routes", "20+")
+# c2.metric("Trips", "20K+")
+# c3.metric("Avg Delay", "7 mins")
+# c4.metric("OTP", "89%")
+
+# st.divider()
+st.header("📌 About the Project")
+
 st.markdown("""
+Public transport delays create daily frustration for
+thousands of passengers. Long waiting times,
+unexpected congestion, and inconsistent schedules
+make travel planning difficult for students,
+employees, and regular commuters.
+
 The **Public Transport Delay Analysis System**
-is designed to analyze, monitor, and visualize
-delays in buses and trains using operational
-transport datasets.
+was developed to transform raw transport data into
+meaningful insights that help both passengers and
+transport organizations make smarter decisions.
 
-The platform transforms transport data into
-interactive analytics dashboards that help:
+Using data analytics, visualization dashboards,
+and AI-generated insights, the platform analyzes:
 
-- Analyze delay trends
-- Detect congestion patterns
-- Improve route efficiency
-- Support smarter travel planning
-- Generate AI-powered operational insights
+- Route-wise delay patterns
+- Congestion trends
+- Seasonal impacts
+- On-Time Performance (OTP)
+- Travel reliability insights
+
+The goal is not just to display transport data —
+but to help users understand *why* delays happen
+and how they can make better travel decisions.
 """)
 
-c1, c2, c3, c4 = st.columns(4)
+st.divider()
 
-c1.metric("Routes", "20+")
-c2.metric("Trips", "20K+")
-c3.metric("Avg Delay", "7 mins")
-c4.metric("OTP", "89%")
+# ======================================================
+# PASSENGER POV
+# ======================================================
 
+st.subheader("🚍 How It Helps Passengers")
+
+st.markdown("""
+Passengers often face uncertainty while using public transport.
+Our system helps commuters better understand travel patterns
+through interactive insights and delay analysis.
+
+### Key Benefits for Users:
+- Identify highly delayed routes
+- Understand peak congestion timings
+- Choose more reliable travel periods
+- Reduce uncertainty during daily commuting
+- Access AI-powered travel insights
+- Improve travel planning and time management
+
+### Example:
+A student traveling to college can analyze which
+routes experience heavy delays during rainy evenings
+or office rush hours and choose better timings
+for daily travel.
+""")
+
+st.divider()
+
+# ======================================================
+# AUTHORITY POV
+# ======================================================
+
+st.subheader("🏢 How It Helps Transport Organizations")
+
+st.markdown("""
+Transport organizations handle large volumes of
+operational data every day, but identifying hidden
+delay patterns manually can be difficult.
+
+Our platform helps authorities convert transport data
+into actionable operational insights.
+
+### Key Benefits for Authorities:
+- Detect routes with repeated delays
+- Analyze congestion hotspots
+- Monitor route performance
+- Study seasonal delay behavior
+- Improve scheduling efficiency
+- Support data-driven planning
+
+The system enables organizations to make informed
+decisions that can improve operational performance
+and passenger experience.
+""")
+
+st.divider()
+
+# ======================================================
+# PROJECT IMPACT
+# ======================================================
+
+st.subheader("📊 Project Impact")
+
+st.markdown("""
+This project demonstrates how Data Analytics and AI
+can be applied to public transportation systems
+to improve travel awareness, operational understanding,
+and smarter decision-making for both commuters and
+transport organizations.
+""")
 st.divider()
