@@ -177,7 +177,7 @@ st.header("📌 About the Project")
 # c4.metric("OTP", "89%")
 
 # st.divider()
-st.header("📌 About the Project")
+# st.header("📌 About the Project")
 
 st.markdown("""
 Public transport delays create daily frustration for
@@ -213,24 +213,38 @@ st.divider()
 
 st.subheader("🚍 How It Helps Passengers")
 
-st.markdown("""
-Passengers often face uncertainty while using public transport.
-Our system helps commuters better understand travel patterns
-through interactive insights and delay analysis.
 
-### Key Benefits for Users:
-- Identify highly delayed routes
-- Understand peak congestion timings
-- Choose more reliable travel periods
-- Reduce uncertainty during daily commuting
-- Access AI-powered travel insights
-- Improve travel planning and time management
+st.markdown("""
+Many people use public transport every day for
+college, work, shopping, and other daily activities.
+But delays and traffic congestion can make travel
+stressful and unpredictable.
+
+Our system helps passengers better understand
+transport delays and travel patterns so they can
+plan their journeys more easily.
+
+### How Users Benefit:
+- Find routes that are usually delayed
+- Know which timings are more crowded
+- Choose better travel timings
+- Reduce long waiting times
+- Travel with better planning and awareness
+- Get simple AI-generated travel insights
 
 ### Example:
-A student traveling to college can analyze which
-routes experience heavy delays during rainy evenings
-or office rush hours and choose better timings
-for daily travel.
+Imagine a student going to college every day.
+
+Sometimes the bus may arrive late because of
+heavy traffic or congestion during peak hours.
+
+Using our platform, the student can understand:
+- which routes are often delayed,
+- what time congestion is highest,
+- and which timings are more reliable for travel.
+
+This helps passengers save time and avoid
+unnecessary waiting.
 """)
 
 st.divider()
